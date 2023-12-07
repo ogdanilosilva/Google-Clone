@@ -72,6 +72,8 @@ main {
     font-size: 17px;
 }
 
+
+
 .barra-pesquisa a {
     margin-right: 10px;
 }
@@ -176,8 +178,16 @@ footer p {
 
 @media screen and (min-width: 320px) and (max-width: 430px) {
 
+    footer {
+        position: relative;
+    }
+
     footer p {
         font-size: 13px;
+    }
+
+    .barra-pesquisa {
+        width: 95%;
     }
 
     .about {
